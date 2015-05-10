@@ -1,0 +1,257 @@
+.subtitulo {
+    color:#000;
+    clear: both;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: solid 1px #5E77B1;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+button, .button, input[type="submit"] {
+
+    font-family: 'Lucida Grande', Verdana, Arial, Helvetica, 'sans-serif';
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+
+    height: 17px;
+    line-height: 17px;
+
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+
+    display: inline-block;
+    padding: 5px 6px 4px 6px;
+    cursor: pointer;
+
+    background-color: #F3F3F3;
+    border: solid 1px #D9D9D9;
+
+    -webkit-transition: border-color .20s;
+    -moz-transition: border-color .20s;
+    -o-transition: border-color .20s;
+    transition: border-color .20s;
+}
+
+input[type="submit"] {
+    height: 30px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+p {
+    clear: both;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+p label {
+    float: left;
+    line-height: 29px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+p label:first-of-type {
+    width: 110px;
+    margin-left: 0px;
+}
+
+p input, p select {
+    float: left;
+}
+
+input {
+    border: solid 1px #CCC;
+    font-size: 14px;
+    height: 23px;
+    margin: 0px;
+    padding: 2px;
+    display: inline-block;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #fdf485;
+}
+
+select {
+    border: solid 1px #CCC;
+    font-size: 14px;
+    margin: 0px;
+    height: 29px;
+    padding: 2px;
+}
+
+
+a, a:visited, a:active {
+    color: #222;
+    text-decoration: underline;
+}
+
+#titulo, #rodape {
+    background-color: #3B5998;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#titulo h1 a {
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#rodape {
+    margin-top: 15px;
+}
+
+#rodape .row {
+    padding: 10px;
+}
+
+#menu {
+    background-color: #5E77B1;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a, #menu ul li a:visited, #menu ul li a:active {
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #3B5998;
+    color: #EDEDED;
+}
+
+#previaparticipantes ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#previaparticipantes ul li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+ul.notificacoes, ul.notificacoes li {
+    margin: 0px; padding: 0px;
+    font-weight: bold;
+}
+
+ul.notificacoes {
+    list-style: none;
+    background-color: #f0eb96;
+    padding: 5px;
+}
+
+ul.notificacoes li.alert-yellow {
+    color: olive;
+}
+
+ul.notificacoes li.alert-error {
+    color: #FF0000;
+}
+
+ul.notificacoes li.alert-success {
+    color: #008200;
+}
+
+ul.notificacoes li.alert-info {
+    color: #fc0;
+}
+
+ul.notificacoes ul { 
+    padding-left: 30px;
+    list-style: circle;
+}
+
+ul.notificacoes ul li {
+    font-weight: normal;
+}
+
+#participantespesquisa span.title {
+    font-weight: bold;
+}
+
+
+
+#participanteslitagem  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#participanteslitagem  ul li {
+    clear: both;
+}
+
+#participanteslitagem  ul li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#participanteslitagem  ul li img {
+    float: left;
+}
+
+#participanteslitagem ul li dl {
+    float: left;
+    padding-left: 10px;
+}
+
+#participanteslitagem ul li dl dd {
+    font-weight: bold;
+    float: left;
+    clear: both;
+    width: 90px;
+}
+
+#participanteslitagem ul li dl dt {
+    float: left;
+}
+
+#participantesexibe img {
+    float: left;
+    
+}
+
+#participantesexibe dl {
+    float: left;
+}
+
+#participantesexibe dd {
+    font-weight: bold;
+    width: 100px;
+    clear: both;
+    float: left;
+}
+
+#participantesexibe dt {
+    float: left;
+}
+
+.ui-widget {
+    font-size: 12px;
+}
