@@ -22,7 +22,7 @@
                 <li>
                     <a href="/exibir/<?php echo $participante->id; ?>">
                         <figure>
-                            <img src="<?php echo URL::base(); ?>imagefly/w100-h100-c/resources/participantes/<?php echo $participante->foto; ?>" />
+                            <img src="<?php echo URL::base(); ?>imagefly/w220-h340-c/resources/participantes/<?php echo $participante->foto; ?>" />
                             <figcaption><?php echo $participante->nome; ?></figcaption>
                         </figure>
                     </a>

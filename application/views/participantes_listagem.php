@@ -38,7 +38,7 @@
                 <li>
                     <a href="/exibir/<?php echo $participante->id; ?>">
                         <figure>
-                            <img src="<?php echo URL::base(); ?>imagefly/w50-h50-c/resources/participantes/<?php echo $participante->foto; ?>" />
+                            <img src="<?php echo URL::base(); ?>imagefly/w240-h320-c/resources/participantes/<?php echo $participante->foto; ?>" />
                         </figure>
                         <dl>
                             <dd>Nome</dd> <dt><?php echo $participante->nome; ?></dt> 

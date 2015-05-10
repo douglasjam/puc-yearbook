@@ -9,9 +9,9 @@ return array
         'type' => 'MySQL',
         'connection' => array(
             'hostname' => 'localhost',
-            'database' => 'atividade06douglasjam',
-            'username' => 'root',
-            'password' => 'root',
+            'database' => '',
+            'username' => '',
+            'password' => '',
             'persistent' => FALSE,
         ),
         'table_prefix' => '',

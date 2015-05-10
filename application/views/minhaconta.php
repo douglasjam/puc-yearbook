@@ -99,7 +99,7 @@
             <div style="float: left;">
                 <?php if (!Helper_String::isNull($participante->foto)) { ?>
                     <a target="_blank" href="/resources/participantes/<?php echo $participante->foto; ?>">
-                        <img style="padding: 10px;" src="/imagefly/w100-h100-c/resources/participantes/<?php echo $participante->foto; ?>" />
+                        <img style="padding: 10px;" src="/imagefly/w220-h340-c/resources/participantes/<?php echo $participante->foto; ?>" />
                     </a>
                 <?php } ?>
 

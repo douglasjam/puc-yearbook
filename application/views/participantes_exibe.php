@@ -19,7 +19,7 @@
 
         <?php if (!Helper_String::isNull($participante->foto)) { ?>
             <a target="_blank" href="/resources/participantes/<?php echo $participante->foto; ?>">
-                <img style="padding: 10px;" src="/imagefly/w250-h250-c/resources/participantes/<?php echo $participante->foto; ?>" />
+                <img style="padding: 10px;" src="/imagefly/w240-h320-c/resources/participantes/<?php echo $participante->foto; ?>" />
             </a>
         <?php } ?>
 
