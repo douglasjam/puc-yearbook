@@ -1,15 +1,15 @@
 framework utilizado: kohana 3.2
 banco de dados utilizado: mysql 5.5
 
-arquivo de configuração do banco de dados
+arquivo de configuraÃ§Ã£o do banco de dados
 
 	application/config/database.php
 	
-script sql utilizado, algumas modificações realizadas
+script sql utilizado, algumas modificaÃ§Ãµes realizadas
 
 	bancodedados.sql
 	
-instruções uso kohana
+instruÃ§Ãµes uso kohana
 
 	criar virtual host, pois esta configurado a app no path /
 
@@ -20,4 +20,4 @@ instruções uso kohana
 		/media/cache
 		
 
-	
+	[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
